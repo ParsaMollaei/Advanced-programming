@@ -1,0 +1,28 @@
+# code 1
+
+def sum_of_list (input_numbers) :
+    return sum(input_numbers)
+
+
+input_numbers = [1,4,7,12,9,14]
+print (sum_of_list(input_numbers)) 
+
+    
+#code 2 
+    
+def check_key (input_1,key):
+    return key in input_1
+
+input_1 = {"name":"Parsa","age":22,"city":"Kerman","id":1,"gmail":"Parsamollaie.z@gmail.com"}
+key = "age"
+end_result = check_key (input_1,key)
+print (end_result)
+
+
+#code 3
+
+def reverse_word (input_word) :
+  return   input_word [:: -1]
+input_word = "parsa"
+print (reverse_word(input_word))
+
